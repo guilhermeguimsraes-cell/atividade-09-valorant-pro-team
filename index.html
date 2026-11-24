@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TBR Esports - Valorant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="hero">
+    <p class="rotulo">Equipe oficial · IFS Tobias Barreto</p>
+    <h1>TBR <span class="contorno">ESPORTS</span></h1>
+    <p>Estratégia, mira e trabalho em equipe.</p>
+    <a href="#peneira" class="botao">Quero jogar</a>
+  </header>
+  <main>
+    <section>
+      <h2>Line-up</h2>
+      <div class="lineup">
+        <article class="jogador"><span class="icone">🎯</span><h3>Mira</h3><p class="funcao">Duelista</p><p>Agente: Jett</p></article>
+        <article class="jogador"><span class="icone">🛡️</span><h3>Muralha</h3><p class="funcao">Sentinela</p><p>Agente: Sage</p></article>
+        <article class="jogador"><span class="icone">💨</span><h3>Fumaça</h3><p class="funcao">Controlador</p><p>Agente: Omen</p></article>
+   <article class="jogador"><span class="icone">🔍</span><h3>Radar</h3><p class="funcao">Iniciador</p><p>Agente: Sova</p></article>
+        <article class="jogador"><span class="icone">⚡</span><h3>Faísca</h3><p class="funcao">Duelista</p><p>Agente: Phoenix</p></article>
+      </div>
+    </section>
+   <section>
+      <h2>Partidas</h2>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Adversário</th><th>Mapa</th><th>Resultado</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>05/10</td><td>IF Lagarto</td><td>Ascent</td><td class="vitoria">13 x 9</td></tr>
+          <tr><td>12/10</td><td>IF Itabaiana</td><td>Bind</td><td class="derrota">10 x 13</td></tr>
+          <tr><td>19/10</td><td>IF Aracaju</td><td>Haven</td><td>—</td></tr>
+          <tr><td>26/10</td><td>IF Estância</td><td>Lotus</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </section>
+ <section id="peneira">
+      <h2>Peneira 2026</h2>
+      <form class="formulario">
+        <fieldset>
+          <legend>Seus dados</legend>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Seu nome completo" required>
+ 
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="voce@exemplo.com" required>
+ 
+          <label for="funcao">Função preferida</label>
+    <select id="funcao">
+            <option>Duelista</option>
+            <option>Controlador</option>
+            <option>Iniciador</option>
+            <option>Sentinela</option>
+          </select>
+ 
+          <label for="msg">Por que quer entrar no time?</label>
+          <textarea id="msg" rows="4"></textarea>
+        </fieldset>
+        <button type="submit" class="botao">Enviar inscrição</button>
+      </form>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>Time fictício · Valorant é marca da Riot Games</p>
+  </footer>
+</body>
+</html>
